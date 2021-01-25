@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tvREGLIVRO"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="REGISTRANDO LIVRO"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <TextView
+        android:id="@+id/tvTITULO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TITULO:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+
+
+    <TextView
+        android:id="@+id/tvAUTOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTOR: "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <TextView
+        android:id="@+id/tvTEMA"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="TEMA:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <TextView
+        android:id="@+id/tvPAGAATUAL"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="PAGINA ATUAL:"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <TextView
+        android:id="@+id/tvDATAVALIDA"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:text="DATA: "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:background="@android:drawable/ic_menu_save"
+        android:backgroundTint="@android:color/black"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <Button
+        android:id="@+id/btCancelar"
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:background="@android:drawable/ic_menu_revert"
+        android:backgroundTint="@android:color/holo_orange_light"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <Button
+        android:id="@+id/btExcluir"
+        android:layout_width="@android:dimen/notification_large_icon_width"
+        android:layout_height="@android:dimen/notification_large_icon_height"
+        android:background="@android:drawable/ic_menu_delete"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="422dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/edTITULO"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="58dp"
+        tools:ignore="MissingConstraints"/>
+
+    <EditText
+        android:id="@+id/edAUTOR"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+    <EditText
+        android:id="@+id/edTEMA"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <EditText
+        android:id="@+id/edPAGATUAL"
+        android:layout_width="212dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <EditText
+        android:id="@+id/edDATAVALIDA"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="291dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
